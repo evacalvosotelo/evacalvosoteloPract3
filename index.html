@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body id = "body">
+    <div>
+        <h2 class = "texto">¿Qué película buscas?</h2>
+        <input id = "input-pelicula" type="text" placeholder="Inserta título aquí">
+        <button id="btnBuscar" onclick="buscarPelicula()">Buscar</button>
+    </div>
+    
+    <div id = "div-pelicula-buscada">
+        <!-- Lo llenamos en el .js -->
+    </div>
+
+    <div id = "pelicula">
+
+        <div class = "elementos-pelicula">
+            <img id = "imagen-pelicula" src="" alt="">
+        </div>
+
+        <div class = "elementos-pelicula">
+            <div id = "div-titulo"  class = "textos">
+                <h2 class = "texto" id = "h2-titulo">Título:</h2>
+            </div>
+            <div class = "textos">
+                <h2 class = "texto" id= "rating">Valoración de IMDB:</h2>
+            </div>
+            <div class = "textos">
+                <h2 class = "texto" id= "director">Director:</h2>
+            </div>
+            <div class = "textos " id = "awards">
+                <h2 class = "texto" id= "director">Premios:</h2>
+                <h1 class = "awards-text" id = "awards-text"></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
